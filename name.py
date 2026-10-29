@@ -8,6 +8,7 @@ import sys
 # except IndexError:
 #     print("No argument provided. Please provide a name as an argument.")
 
+'''
 if len(sys.argv) < 2:
     # print("argument not provided")
     sys.exit("argument not provided")
@@ -17,3 +18,15 @@ elif len(sys.argv) > 2:
     sys.exit("too many arguments provided")
 
 print(sys.argv[1])
+'''
+
+#slices
+
+# for arg in sys.argv:
+#     print(arg)
+
+# for arg in sys.argv[1:]:
+#     print(arg)
+
+for arg in sys.argv[1:3]:
+    print(arg)
